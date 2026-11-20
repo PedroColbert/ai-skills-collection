@@ -52,7 +52,8 @@
 
 **🪟 Windows notes (tested 2026-11-20, Bun 1.4.5, Windows 11).**
 - Install Bun: `powershell -c "irm bun.sh/install.ps1 | iex"`; run `setup.sh` from **Git Bash**.
-- **Local patch:** upstream `scripts/lib.ts` looks for `ffmpeg-static/ffmpeg`, but on Windows the binary is `ffmpeg.exe` → every capture failed with "ffmpeg not installed". Fixed with `process.platform === "win32" ? "ffmpeg.exe" : "ffmpeg"` (candidate for an upstream PR).
+- **Local patch:** upstream `scripts/lib.ts` looks for `ffmpeg-static/ffmpeg`, but on Windows the binary is `ffmpeg.exe` → every capture failed with "ffmpeg not installed". Fixed with `process.platform === "win32" ? "ffmpeg.exe" : "ffmpeg"`. Same fix already proposed upstream in [PR #1](https://github.com/NiazMorshed2007/reanimate/pull/1) and [PR #4](https://github.com/NiazMorshed2007/reanimate/pull/4) (open as of 2026-11-20) → drop the local patch once one is merged.
+- **Pass local files to `capture.ts --url` as Git Bash paths** (`/c/Users/...`), not `C:\...`: upstream treats the drive letter `C:` as a URL scheme (fixed in PR #4, not patched here).
 - Smoke test: a 1 s `cubic-bezier(0.22,1,0.36,1)` slide captured twice → 0.00 % mismatch, 0 s timing error, PASS. `inspect.json` reported the **exact** 1000 ms and easing, while the pixel-based `easing.ts` fit ranked it 3rd (rmse 0.0155 vs 0.0105) — proof of why the skill prefers declared values over pixel estimates.
 
 **⚠️ Caveats.**
