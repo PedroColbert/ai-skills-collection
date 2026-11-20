@@ -50,8 +50,13 @@
 
 **When NOT to use.** Simple animations you can just write; when you can't get a recording (login walls → ask for a screen recording).
 
+**🪟 Windows notes (tested 2026-11-20, Bun 1.4.5, Windows 11).**
+- Install Bun: `powershell -c "irm bun.sh/install.ps1 | iex"`; run `setup.sh` from **Git Bash**.
+- **Local patch:** upstream `scripts/lib.ts` looks for `ffmpeg-static/ffmpeg`, but on Windows the binary is `ffmpeg.exe` → every capture failed with "ffmpeg not installed". Fixed with `process.platform === "win32" ? "ffmpeg.exe" : "ffmpeg"` (candidate for an upstream PR).
+- Smoke test: a 1 s `cubic-bezier(0.22,1,0.36,1)` slide captured twice → 0.00 % mismatch, 0 s timing error, PASS. `inspect.json` reported the **exact** 1000 ms and easing, while the pixel-based `easing.ts` fit ranked it 3rd (rmse 0.0155 vs 0.0105) — proof of why the skill prefers declared values over pixel estimates.
+
 **⚠️ Caveats.**
-- Needs **Bun** (`powershell -c "irm bun.sh/install.ps1 | iex"`), not installed on this machine yet. `setup.sh` is a bash script → run it from Git Bash on Windows.
+- Needs **Bun** + Git Bash on Windows (see above).
 - `setup.sh` creates `scripts/node_modules` inside the skill (ignored by this repo's `.gitignore`).
 - **Ethics/legal:** cloning *motion* is learning; copying another company's brand, logos, images, copy or proprietary shaders is not OK for production. Default to motion-faithful with your own content.
 - Safety review (2026-11-19): no outbound calls besides the page being captured; deletions only inside its own output folders; `--pre-js` runs code *you* pass into the captured page.
@@ -77,7 +82,8 @@
 **Quando NÃO usar.** Animações simples que dá para escrever direto; quando não há como gravar a referência.
 
 **⚠️ Cuidados.**
-- Precisa do **Bun** (ainda não instalado nesta máquina). No Windows, rodar `setup.sh` pelo Git Bash.
+- Precisa do **Bun** (instalado em 2026-11-20). No Windows, rodar `setup.sh` pelo Git Bash.
+- **Correção local para Windows:** o script original procurava `ffmpeg` em vez de `ffmpeg.exe` e toda captura falhava. Corrigi o `scripts/lib.ts`. Num teste com uma animação de 1 s, a comparação deu 0 % de diferença e PASS, e o `inspect.json` achou a duração e o easing **exatos**, enquanto a estimativa pelos pixels errou o easing. Isso mostra por que a skill prefere os valores declarados.
 - Primeira execução baixa ~250 MB (Chromium + ffmpeg).
 - **Ética/jurídico:** clonar o *movimento* é aprendizado; copiar marca, logos, imagens, textos ou shaders de outra empresa para produção não é. Preferir motion-faithful com conteúdo próprio.
 - Revisão de segurança (2026-11-19): sem chamadas de rede além da página capturada; só apaga arquivos dentro das próprias pastas de saída.
