@@ -53,7 +53,8 @@
 **🪟 Windows notes (tested 2026-11-20, Bun 1.4.5, Windows 11).**
 - Install Bun: `powershell -c "irm bun.sh/install.ps1 | iex"`; run `setup.sh` from **Git Bash**.
 - **Local patch:** upstream `scripts/lib.ts` looks for `ffmpeg-static/ffmpeg`, but on Windows the binary is `ffmpeg.exe` → every capture failed with "ffmpeg not installed". Fixed with `process.platform === "win32" ? "ffmpeg.exe" : "ffmpeg"`. Same fix already proposed upstream in [PR #1](https://github.com/NiazMorshed2007/reanimate/pull/1) and [PR #4](https://github.com/NiazMorshed2007/reanimate/pull/4) (open as of 2026-11-20) → drop the local patch once one is merged.
-- **Pass local files to `capture.ts --url` as Git Bash paths** (`/c/Users/...`), not `C:\...`: upstream treats the drive letter `C:` as a URL scheme (fixed in PR #4, not patched here).
+- PR #4 also changes how `C:\...` paths are turned into `file://` URLs. On this machine (Playwright 1.64.1) both `C:\...` and `/c/...` paths already worked before the change, so that bug did not reproduce here.
+- **Contribution:** tested PR #4 on Windows 11 and [reported the results](https://github.com/NiazMorshed2007/reanimate/pull/4#issuecomment-7029945868) (2026-11-20).
 - Smoke test: a 1 s `cubic-bezier(0.22,1,0.36,1)` slide captured twice → 0.00 % mismatch, 0 s timing error, PASS. `inspect.json` reported the **exact** 1000 ms and easing, while the pixel-based `easing.ts` fit ranked it 3rd (rmse 0.0155 vs 0.0105) — proof of why the skill prefers declared values over pixel estimates.
 
 **⚠️ Caveats.**
@@ -85,6 +86,7 @@
 **⚠️ Cuidados.**
 - Precisa do **Bun** (instalado em 2026-11-20). No Windows, rodar `setup.sh` pelo Git Bash.
 - **Correção local para Windows:** o script original procurava `ffmpeg` em vez de `ffmpeg.exe` e toda captura falhava. Corrigi o `scripts/lib.ts`. Num teste com uma animação de 1 s, a comparação deu 0 % de diferença e PASS, e o `inspect.json` achou a duração e o easing **exatos**, enquanto a estimativa pelos pixels errou o easing. Isso mostra por que a skill prefere os valores declarados.
+- **Contribuição:** testei o PR #4 (correção para Windows) do repositório original e [comentei os resultados](https://github.com/NiazMorshed2007/reanimate/pull/4#issuecomment-7029945868) em 2026-11-20.
 - Primeira execução baixa ~250 MB (Chromium + ffmpeg).
 - **Ética/jurídico:** clonar o *movimento* é aprendizado; copiar marca, logos, imagens, textos ou shaders de outra empresa para produção não é. Preferir motion-faithful com conteúdo próprio.
 - Revisão de segurança (2026-11-19): sem chamadas de rede além da página capturada; só apaga arquivos dentro das próprias pastas de saída.
