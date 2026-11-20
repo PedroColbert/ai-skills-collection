@@ -17,6 +17,19 @@ Guia rápido de decisão: qual skill usar em cada situação.
 
 ---
 
+## 🎬 Frontend / Motion
+
+### reanimate
+- **EN:** Clones an animation from a URL, video, gif or Lottie frame by frame into your codebase, then proves it matches with frame-by-frame comparisons (Playwright + ffmpeg). Handles CSS, JS, canvas, WebGL, three.js.
+- **PT:** Clona uma animação de um site, vídeo, gif ou Lottie quadro a quadro para o seu código e prova que bate com comparações quadro a quadro (Playwright + ffmpeg). Funciona com CSS, JS, canvas, WebGL, three.js.
+- **Use when / Usar quando:** "make it move like site X", recreate a hero/loader/carousel/hover/scroll effect, port a prototype's motion / "faz igual ao site X", recriar hero/loader/carrossel/hover/scroll.
+- **Avoid / Evitar:** trivial animations; copying other brands' assets for production / animações triviais; copiar assets de outras marcas para produção.
+- **Requires / Requer:** Bun, ~250 MB first setup.
+- **Pairs with / Combina com:** any web frontend skill / qualquer skill de frontend web.
+- 📄 [STUDY.md](reanimate/STUDY.md)
+
+---
+
 ## 📱 Mobile UI
 
 ### mobile-android-design

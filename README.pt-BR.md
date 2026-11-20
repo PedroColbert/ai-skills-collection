@@ -26,6 +26,7 @@ Este repositório fica clonado direto em `~/.claude/skills/`, então toda skill 
 | [find-skills](find-skills/STUDY.md) | Meta / ferramentas | Descobrir e instalar novas skills do ecossistema aberto | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | [mobile-android-design](mobile-android-design/STUDY.md) | UI Mobile | Material Design 3 + Jetpack Compose para Android nativo | [wshobson/agents](https://github.com/wshobson/agents) |
 | [mobile-ios-design](mobile-ios-design/STUDY.md) | UI Mobile | Apple HIG + SwiftUI para iOS/iPadOS nativo | [wshobson/agents](https://github.com/wshobson/agents) |
+| [reanimate](reanimate/STUDY.md) | Frontend / Animação | Clona qualquer animação quadro a quadro e prova que a cópia se mexe igual | [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate) |
 
 ➡️ Detalhes, casos de uso e combinações: **[CATALOG.md](CATALOG.md)**
 
