@@ -28,6 +28,12 @@ Este repositório fica clonado direto em `~/.claude/skills/`, então toda skill 
 | [mobile-ios-design](mobile-ios-design/STUDY.md) | UI Mobile | Apple HIG + SwiftUI para iOS/iPadOS nativo | [wshobson/agents](https://github.com/wshobson/agents) |
 | [reanimate](reanimate/STUDY.md) | Frontend / Animação | Clona qualquer animação quadro a quadro e prova que a cópia se mexe igual | [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate) |
 
+## 📦 Estudadas, não instaladas
+
+| Coleção | O que é | Observações |
+|---|---|---|
+| [ECC — Everything Claude Code](_studies/ecc/STUDY.md) | Kit de "harness" para agentes: 328 skills, 72 agentes, hooks, regras, memória | Analisado quanto a encaixe e riscos; ideias principais e lista de skills para trazer documentadas |
+
 ➡️ Detalhes, casos de uso e combinações: **[CATALOG.md](CATALOG.md)**
 
 ## 🔁 Como o repositório cresce

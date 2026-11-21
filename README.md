@@ -28,6 +28,12 @@ This repository is cloned directly into `~/.claude/skills/`, so every skill here
 | [mobile-ios-design](mobile-ios-design/STUDY.md) | Mobile UI | Apple HIG + SwiftUI for native iOS/iPadOS | [wshobson/agents](https://github.com/wshobson/agents) |
 | [reanimate](reanimate/STUDY.md) | Frontend / Motion | Clone any animation frame by frame and prove the copy moves the same | [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate) |
 
+## 📦 Studied, not installed
+
+| Collection | What it is | Notes |
+|---|---|---|
+| [ECC — Everything Claude Code](_studies/ecc/STUDY.md) | Agent-harness toolkit: 328 skills, 72 agents, hooks, rules, memory | Analysed for fit and risk; key ideas and cherry-pick list documented |
+
 ➡️ Full details, use cases and combinations: **[CATALOG.md](CATALOG.md)**
 
 ## 🔁 How this repo grows

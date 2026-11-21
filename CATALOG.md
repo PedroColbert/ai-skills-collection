@@ -50,6 +50,17 @@ Guia rápido de decisão: qual skill usar em cada situação.
 
 ---
 
+## 📦 Studied collections (not installed) / Coleções estudadas (não instaladas)
+
+### ECC — Everything Claude Code
+- **EN:** Full agent-harness toolkit: 328 skills, 72 agents, 99 commands, rules, 28 hooks, memory vault, security scanner. Enforces plan → test → implement → review → verify.
+- **PT:** Kit completo de "harness": 328 skills, 72 agentes, 99 comandos, regras, 28 hooks, memória e scanner de segurança. Força planejar → testar → implementar → revisar → verificar.
+- **Status:** studied only. Full install blocks `npm run dev` on Windows (tmux hook) and changes every session / só estudado; a instalação completa bloqueia `npm run dev` no Windows e muda todas as sessões.
+- **Cherry-pick candidates / Candidatas a trazer:** `vite-patterns`, `typescript-patterns`, `react-patterns`, `react-performance`, `make-interfaces-feel-better`, `frontend-a11y`, `seo`, `verification-loop`, `tdd-workflow`, `search-first`.
+- 📄 [STUDY.md](_studies/ecc/STUDY.md)
+
+---
+
 ## 🔭 Wishlist / Para estudar
 
 Related skills from the same sources worth evaluating / Skills relacionadas das mesmas fontes que vale avaliar:
