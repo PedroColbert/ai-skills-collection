@@ -30,6 +30,58 @@ Guia rápido de decisão: qual skill usar em cada situação.
 
 ---
 
+### animate · choreograph
+- **EN:** `animate` builds **one** animation by deciding in order (should it animate → purpose → tool → properties → easing → exit → reduced motion). `choreograph` coordinates **several** elements (staggers, hero entrances, view swaps) with no uniform stagger and nothing blocking clicks.
+- **PT:** `animate` cria **uma** animação decidindo na ordem certa. `choreograph` coordena **vários** elementos (stagger, entrada do hero, troca de telas).
+- **Use when / Usar quando:** adding motion / adicionar animação. **Pairs with / Combina com:** `emil-design-eng`, `gsap-*`.
+- 📄 [animate](animate/STUDY.md) · [choreograph](choreograph/STUDY.md)
+
+### gsap-scrolltrigger · gsap-plugins (official GSAP)
+- **EN:** Scroll-linked animation, pinning, scrub, horizontal scroll; every GSAP plugin (SplitText, ScrambleText, Flip, Draggable, MorphSVG…) — **all free**, install from public `gsap`.
+- **PT:** Animação ligada à rolagem, seções presas, rolagem horizontal; todos os plugins do GSAP — **todos grátis**.
+- **Use when / Usar quando:** any GSAP project (e.g. the portfolio) / qualquer projeto com GSAP.
+- 📄 [gsap-scrolltrigger](gsap-scrolltrigger/STUDY.md) · [gsap-plugins](gsap-plugins/STUDY.md)
+
+---
+
+## 🎨 Web design & UI
+
+### frontend-design · build-awwwards-quality-sites
+- **EN:** Visual direction. `frontend-design` (Anthropic) avoids templated "AI look"; `build-awwwards-quality-sites` art-directs motion-rich portfolio/landing sites (GSAP + one smooth-scroll engine + optional Three.js, honest assets).
+- **PT:** Direção visual. `frontend-design` evita a "cara de IA"; `build-awwwards-quality-sites` faz sites de portfólio/landing com direção de arte e animação.
+- **Use when / Usar quando:** starting or reshaping a site / começar ou repensar um site. **Avoid / Evitar:** dashboards (awwwards).
+- 📄 [frontend-design](frontend-design/STUDY.md) · [build-awwwards-quality-sites](build-awwwards-quality-sites/STUDY.md)
+
+### ui-ux-pro-max
+- **EN:** Offline searchable database (styles, palettes, font pairings, UX rules, 22 stacks) + design-system generator (`MASTER.md`). Python 3.
+- **PT:** Banco de dados local (estilos, paletas, fontes, regras de UX, 22 stacks) + gerador de design system. Python 3.
+- **Use when / Usar quando:** no visual direction yet / ainda sem direção visual.
+- 📄 [STUDY.md](ui-ux-pro-max/STUDY.md)
+
+### emil-design-eng · better-ui · better-colors · better-typography · better-layout
+- **EN:** Polish layer with exact values: interaction details (Emil), surfaces/icons/motion, colour systems & contrast, typography, layout & i18n.
+- **PT:** Camada de acabamento com valores exatos: interações, superfícies, cores e contraste, tipografia, layout.
+- **Use when / Usar quando:** final polish or design-system work / acabamento final ou design system.
+- 📄 [emil](emil-design-eng/STUDY.md) · [ui](better-ui/STUDY.md) · [colors](better-colors/STUDY.md) · [typography](better-typography/STUDY.md) · [layout](better-layout/STUDY.md)
+
+### web-design-guidelines
+- **EN:** Audits UI code against Vercel's Web Interface Guidelines (fetched fresh each review) → `file:line` findings.
+- **PT:** Audita o código da interface pelas diretrizes da Vercel (baixadas a cada revisão).
+- **Use when / Usar quando:** "review my UI" before shipping / "revise minha UI" antes de publicar. **Needs internet / Precisa de internet.**
+- 📄 [STUDY.md](web-design-guidelines/STUDY.md)
+
+---
+
+## ✍️ Content / Conteúdo
+
+### copywriting
+- **EN:** Page copy after diagnosing the input (blank / real voice / point edit); supportable claims only; no AI tells.
+- **PT:** Textos de página depois de diagnosticar o pedido; só afirmações comprováveis; sem cara de IA.
+- **Use when / Usar quando:** hero copy, CV text, landing pages / textos de hero, currículo, landing pages.
+- 📄 [STUDY.md](copywriting/STUDY.md)
+
+---
+
 ## 📱 Mobile UI
 
 ### mobile-android-design

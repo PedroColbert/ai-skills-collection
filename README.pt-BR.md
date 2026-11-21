@@ -27,6 +27,20 @@ Este repositório fica clonado direto em `~/.claude/skills/`, então toda skill 
 | [mobile-android-design](mobile-android-design/STUDY.md) | UI Mobile | Material Design 3 + Jetpack Compose para Android nativo | [wshobson/agents](https://github.com/wshobson/agents) |
 | [mobile-ios-design](mobile-ios-design/STUDY.md) | UI Mobile | Apple HIG + SwiftUI para iOS/iPadOS nativo | [wshobson/agents](https://github.com/wshobson/agents) |
 | [reanimate](reanimate/STUDY.md) | Frontend / Animação | Clona qualquer animação quadro a quadro e prova que a cópia se mexe igual | [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate) |
+| [animate](animate/STUDY.md) | Animação | Cria uma animação decidindo na ordem certa (deve animar? → curva → saída) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [choreograph](choreograph/STUDY.md) | Animação | Coordena vários elementos para o grupo se mover como um só | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [gsap-scrolltrigger](gsap-scrolltrigger/STUDY.md) | Animação / GSAP | Skill oficial do GSAP: animação na rolagem, seções presas, scrub | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) |
+| [gsap-plugins](gsap-plugins/STUDY.md) | Animação / GSAP | Skill oficial do GSAP: SplitText, Flip, Draggable, MorphSVG… (todos grátis) | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) |
+| [frontend-design](frontend-design/STUDY.md) | Web design | Direção visual marcante que não parece template | [anthropics/skills](https://github.com/anthropics/skills) |
+| [build-awwwards-quality-sites](build-awwwards-quality-sites/STUDY.md) | Web design | Sites de portfólio e landing pages com direção de arte e animação | [MengTo/Skills](https://github.com/MengTo/Skills) |
+| [ui-ux-pro-max](ui-ux-pro-max/STUDY.md) | UI/UX | Banco local pesquisável de estilos, paletas, fontes e regras de UX | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [emil-design-eng](emil-design-eng/STUDY.md) | Acabamento de UI | Detalhes de design engineering que deixam a interface ótima | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [better-ui](better-ui/STUDY.md) | Acabamento de UI | Valores exatos para bordas, sombras, ícones e animações | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| [better-colors](better-colors/STUDY.md) | Design system | Paletas em escala, tokens semânticos, contraste medido | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| [better-typography](better-typography/STUDY.md) | Tipografia | Escala tipográfica, espaçamento, recursos da fonte, quebras | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| [better-layout](better-layout/STUDY.md) | Layout | Agrupamento, alinhamento e layouts que aguentam tradução e espelhamento | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| [web-design-guidelines](web-design-guidelines/STUDY.md) | Revisão de UI | Audita o código da interface pelas diretrizes da Vercel | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [copywriting](copywriting/STUDY.md) | Conteúdo | Textos de página com afirmações comprováveis e sem cara de IA | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
 ## 📦 Estudadas, não instaladas
 
