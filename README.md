@@ -33,6 +33,8 @@ This repository is cloned directly into `~/.claude/skills/`, so every skill here
 | [gsap-plugins](gsap-plugins/STUDY.md) | Motion / GSAP | Official GSAP skill: SplitText, Flip, Draggable, MorphSVG… (all free) | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) |
 | [frontend-design](frontend-design/STUDY.md) | Web design | Distinctive visual direction that doesn't look templated | [anthropics/skills](https://github.com/anthropics/skills) |
 | [build-awwwards-quality-sites](build-awwwards-quality-sites/STUDY.md) | Web design | Art-directed, motion-rich portfolio and landing sites | [MengTo/Skills](https://github.com/MengTo/Skills) |
+| [awwwards](awwwards/STUDY.md) | Web design | Award-caliber sites from a one-line brief, with blind-critic QA loop | [juliobsz/skills](https://github.com/juliobsz/skills) |
+| [jury](jury/STUDY.md) | Web design | Scores a site like an Awwwards jury, from screenshots and measurements | [juliobsz/skills](https://github.com/juliobsz/skills) |
 | [ui-ux-pro-max](ui-ux-pro-max/STUDY.md) | UI/UX | Searchable local database of styles, palettes, fonts and UX rules | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [emil-design-eng](emil-design-eng/STUDY.md) | UI polish | Design-engineering details that make interfaces feel great | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
 | [better-ui](better-ui/STUDY.md) | UI polish | Exact values for radius, shadows, icons and motion | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |

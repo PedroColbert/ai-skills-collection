@@ -18,6 +18,8 @@ Todos os arquivos destas skills, exceto o `STUDY.md`, pertencem aos autores orig
 | better-typography | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | MIT | (c) 2026 Jakub Krehel |
 | better-ui | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | MIT | (c) 2026 Jakub Krehel |
 | build-awwwards-quality-sites | [MengTo/Skills](https://github.com/MengTo/Skills) | MIT | (c) 2026 Meng To |
+| awwwards | [juliobsz/skills](https://github.com/juliobsz/skills) | MIT | (c) 2026 Julio (juliobsz) |
+| jury | [juliobsz/skills](https://github.com/juliobsz/skills) | MIT | (c) 2026 Julio (juliobsz) |
 | copywriting | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | (c) 2025 Corey Haines |
 | frontend-design | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 (`LICENSE.txt`) | Anthropic |
 | gsap-plugins | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) | MIT | (c) 2026 GreenSock |

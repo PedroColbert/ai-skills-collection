@@ -33,6 +33,8 @@ Este repositório fica clonado direto em `~/.claude/skills/`, então toda skill 
 | [gsap-plugins](gsap-plugins/STUDY.md) | Animação / GSAP | Skill oficial do GSAP: SplitText, Flip, Draggable, MorphSVG… (todos grátis) | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) |
 | [frontend-design](frontend-design/STUDY.md) | Web design | Direção visual marcante que não parece template | [anthropics/skills](https://github.com/anthropics/skills) |
 | [build-awwwards-quality-sites](build-awwwards-quality-sites/STUDY.md) | Web design | Sites de portfólio e landing pages com direção de arte e animação | [MengTo/Skills](https://github.com/MengTo/Skills) |
+| [awwwards](awwwards/STUDY.md) | Web design | Sites nível prêmio a partir de um briefing curto, com QA por crítico cego | [juliobsz/skills](https://github.com/juliobsz/skills) |
+| [jury](jury/STUDY.md) | Web design | Dá notas a um site como o júri do Awwwards, a partir de screenshots e métricas | [juliobsz/skills](https://github.com/juliobsz/skills) |
 | [ui-ux-pro-max](ui-ux-pro-max/STUDY.md) | UI/UX | Banco local pesquisável de estilos, paletas, fontes e regras de UX | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [emil-design-eng](emil-design-eng/STUDY.md) | Acabamento de UI | Detalhes de design engineering que deixam a interface ótima | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
 | [better-ui](better-ui/STUDY.md) | Acabamento de UI | Valores exatos para bordas, sombras, ícones e animações | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |

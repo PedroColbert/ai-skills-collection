@@ -52,6 +52,13 @@ Guia rápido de decisão: qual skill usar em cada situação.
 - **Use when / Usar quando:** starting or reshaping a site / começar ou repensar um site. **Avoid / Evitar:** dashboards (awwwards).
 - 📄 [frontend-design](frontend-design/STUDY.md) · [build-awwwards-quality-sites](build-awwwards-quality-sites/STUDY.md)
 
+### awwwards · jury
+- **EN:** `awwwards` builds award-caliber sites from a short brief (concept → art direction in `DESIGN.md` → GSAP + Lenis build → QA loop with a blind critic until every score ≥ 8). `jury` only scores a site, Awwwards-style, from screenshots, vitals, axe and an SEO audit, with a ranked fix list.
+- **PT:** `awwwards` constrói sites nível prêmio a partir de um briefing curto (conceito → direção de arte → GSAP + Lenis → QA com crítico cego até notas ≥ 8). `jury` só avalia um site no estilo do júri do Awwwards, com lista de correções.
+- **Use when / Usar quando:** portfolio or landing that must impress; "is it Awwwards-level?" / portfólio ou landing que precisa impressionar; "está no nível Awwwards?". **Avoid / Evitar:** dashboards, app UIs.
+- **Requires / Requer:** Node 20+, Playwright + axe-core for QA scripts.
+- 📄 [awwwards](awwwards/STUDY.md) · [jury](jury/STUDY.md)
+
 ### ui-ux-pro-max
 - **EN:** Offline searchable database (styles, palettes, font pairings, UX rules, 22 stacks) + design-system generator (`MASTER.md`). Python 3.
 - **PT:** Banco de dados local (estilos, paletas, fontes, regras de UX, 22 stacks) + gerador de design system. Python 3.
