@@ -63,4 +63,5 @@ npx skills init my-skill               # scaffold your own
 
 ## 🧪 Used in / Usada em
 
-_Not used in a project yet / Ainda não usada em projeto._
+- **2026-11-23 — alessandra-colbert-portfolio**: searched "awwwards", "portfolio website", "scroll animation"; vetted candidates by installs, stars and license and picked `juliobsz/skills` (awwwards + jury).
+- **2026-11-23 — alessandra-colbert-portfolio**: buscou "awwwards", "portfolio website", "scroll animation"; avaliou candidatas por instalações, estrelas e licença e escolheu `juliobsz/skills` (awwwards + jury).

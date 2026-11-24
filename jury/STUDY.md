@@ -44,3 +44,6 @@
 `awwwards`, `web-design-guidelines`.
 
 ## 🧪 Used in / Usada em
+
+- **2026-11-23 — alessandra-colbert-portfolio**: ran its `shoot.mjs` + `audit.mjs` evidence pass (Playwright in `~/.cache/jury`) on a local build; caught low contrast over a watercolor wash, sub-24px tap targets, missing hover on the language switch and a duplicated painting. Final pass: 0 serious axe violations, mobile LCP ~2 s, CLS 0. Score not run blind (self-built site).
+- **2026-11-23 — alessandra-colbert-portfolio**: rodou a etapa de evidências (`shoot.mjs` + `audit.mjs`, Playwright em `~/.cache/jury`) num build local; encontrou contraste baixo sobre a mancha de aquarela, alvos de toque < 24 px, seletor de idioma sem hover e uma pintura duplicada. Passada final: 0 violações graves no axe, LCP no celular ~2 s, CLS 0. Nota não foi dada às cegas (site feito na mesma sessão).

@@ -44,3 +44,6 @@
 `jury`, `gsap-scrolltrigger`, `gsap-plugins`, `build-awwwards-quality-sites`, `frontend-design`, `emil-design-eng`.
 
 ## 🧪 Used in / Usada em
+
+- **2026-11-23 — alessandra-colbert-portfolio** (static GitHub Pages site for an early childhood teacher): ran the concept phase (watercolor bloom chosen over two alternatives), wrote `DESIGN.md`, ported a minimal GSAP + Lenis engine to vanilla JS, self-hosted fonts with `font.mjs`, generated the OG image with `og.mjs` and used `audit.mjs` to fix accessible names, meta length and image weight.
+- **2026-11-23 — alessandra-colbert-portfolio** (site estático no GitHub Pages de uma professora de Educação Infantil): fez a fase de conceito (aquarela que floresce, escolhida entre três), escreveu o `DESIGN.md`, portou um motor GSAP + Lenis mínimo para JS puro, hospedou fontes com `font.mjs`, gerou a imagem OG com `og.mjs` e usou o `audit.mjs` para corrigir nomes acessíveis, tamanho da descrição e peso das imagens.
