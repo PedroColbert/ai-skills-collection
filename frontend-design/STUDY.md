@@ -49,3 +49,5 @@
 
 - **2026-11-15 — pedro-colbert-portfolio** (online CV site, Vite + TS + GSAP + React islands): installed as a project skill for the site's design and motion work.
 - **2026-11-15 — pedro-colbert-portfolio** (currículo online, Vite + TS + GSAP + ilhas React): instalada como skill do projeto para o design e as animações do site.
+- **2026-11-23 — alessandra-colbert-portfolio** (static site for a bilingual early childhood teacher): set the "pedagogical documentation panel" direction (pinned photos, handwritten observation notes, palette drawn from the children's watercolors) and replaced a fashion-editorial look with an EN/PT site organised around documented projects.
+- **2026-11-23 — alessandra-colbert-portfolio** (site estático de uma professora bilíngue de Educação Infantil): definiu a direção "painel de documentação pedagógica" (fotos presas com fita, anotações manuscritas de observação, paleta tirada das aquarelas das crianças) e trocou o visual de editorial de moda por um site EN/PT organizado em projetos documentados.
