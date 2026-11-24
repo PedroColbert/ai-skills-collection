@@ -49,3 +49,5 @@
 
 - **2026-11-15 — pedro-colbert-portfolio** (online CV site, Vite + TS + GSAP + React islands): installed as a project skill for the site's design and motion work.
 - **2026-11-15 — pedro-colbert-portfolio** (currículo online, Vite + TS + GSAP + ilhas React): instalada como skill do projeto para o design e as animações do site.
+- **2026-11-24 — alessandra-colbert-portfolio**: swapped depth-only borders for layered shadows (with a transparent border for forced colors), added the 0.96 press scale behind reduced-motion, and applied the theme-switch transition suppression so the light/dark toggle stops smearing.
+- **2026-11-24 — alessandra-colbert-portfolio**: trocou bordas que só davam profundidade por sombras em camadas (com borda transparente para o modo de alto contraste), adicionou o aperto de 0,96 nos botões respeitando o movimento reduzido e aplicou a supressão de transições na troca de tema, que deixou de "borrar" no claro/escuro.

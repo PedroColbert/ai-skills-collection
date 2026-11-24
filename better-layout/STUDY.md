@@ -49,3 +49,5 @@
 
 - **2026-11-15 — pedro-colbert-portfolio** (online CV site, Vite + TS + GSAP + React islands): installed as a project skill for the site's design and motion work.
 - **2026-11-15 — pedro-colbert-portfolio** (currículo online, Vite + TS + GSAP + ilhas React): instalada como skill do projeto para o design e as animações do site.
+- **2026-11-24 — alessandra-colbert-portfolio** (static GitHub Pages site for an early childhood teacher): rebuilt the cramped contact block as one primary action plus secondary ones, grouped details with space instead of lines, used label-above-value on phones and `minmax(0,1fr)` tracks; checked at 10 widths from 320 to 1920 px with no overflow.
+- **2026-11-24 — alessandra-colbert-portfolio** (site estático no GitHub Pages de uma professora de Educação Infantil): refez o bloco de contato apertado com uma ação principal e as demais secundárias, agrupou os dados por espaço em vez de linhas, usou rótulo acima do valor no celular e trilhas `minmax(0,1fr)`; conferido em 10 larguras de 320 a 1920 px, sem estouro.
