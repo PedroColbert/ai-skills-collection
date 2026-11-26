@@ -43,6 +43,23 @@ Este repositório fica clonado direto em `~/.claude/skills/`, então toda skill 
 | [better-layout](better-layout/STUDY.md) | Layout | Agrupamento, alinhamento e layouts que aguentam tradução e espelhamento | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
 | [web-design-guidelines](web-design-guidelines/STUDY.md) | Revisão de UI | Audita o código da interface pelas diretrizes da Vercel | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [copywriting](copywriting/STUDY.md) | Conteúdo | Textos de página com afirmações comprováveis e sem cara de IA | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
+| [animate-expo](animate-expo/STUDY.md) | Animação / React Native | Sequência de animação para Expo: Reanimated, gestos, vibração | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [gestures](gestures/STUDY.md) | Animação | Arrastar, deslizar e sheets que seguem o dedo e podem ser interrompidos | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [animation-performance](animation-performance/STUDY.md) | Animação / Desempenho | Descobre por que a animação engasga; só propriedades baratas | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [find-animation-opportunities](find-animation-opportunities/STUDY.md) | Animação / Auditoria | Só leitura: onde animar ajudaria e onde não | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [remove-animations](remove-animations/STUDY.md) | Animação / Limpeza | Remove animações desnecessárias (só subtrai) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [improve-animations](improve-animations/STUDY.md) | Animação / Auditoria | Auditoria de animações + planos prontos para outros agentes | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [review-animations](review-animations/STUDY.md) | Animação / Revisão | Revisão rigorosa por 10 padrões (`/review-animations`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [animation-vocabulary](animation-vocabulary/STUDY.md) | Animação | Glossário: descrição vaga → nome exato do efeito | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [apple-design](apple-design/STUDY.md) | Princípios de design | Princípios de interface e movimento da Apple (WWDC), para a web | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [mobile-native](mobile-native/STUDY.md) | Web mobile | Faz o site parecer app no celular (100vh, zoom, hover preso…) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [break-ui](break-ui/STUDY.md) | QA | Testa a interface com dados extremos num botão só de desenvolvimento | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [prototype](prototype/STUDY.md) | Exploração de design | Várias versões reais com seletor ao vivo (`/prototype`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [learn-taste](learn-taste/STUDY.md) | Memória de design | Transforma correções de design em regras no DESIGN.md (`/learn-taste`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [pick-ui-library](pick-ui-library/STUDY.md) | Ferramentas | Biblioteca certa para cada tarefa de frontend (`/pick-ui-library`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [ask-sonner](ask-sonner/STUDY.md) | Guia de biblioteca | Guia do Sonner, biblioteca de notificações para React | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [ask-emil](ask-emil/STUDY.md) | Roteador | Qual skill do Emil (ou sequência) serve para o seu caso (`/ask-emil`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [write-swift](write-swift/STUDY.md) | Swift | Swift moderno: concorrência do Swift 6, tipos por valor, Swift Testing | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
 
 ## 📦 Estudadas, não instaladas
 

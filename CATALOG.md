@@ -79,6 +79,33 @@ Guia rápido de decisão: qual skill usar em cada situação.
 
 ---
 
+## 🪄 Emil Kowalski's motion & design toolkit
+
+Full set from [emilkowalski/skills](https://github.com/emilkowalski/skills) (with `animate`, `choreograph`, `emil-design-eng` above). Start with `/ask-emil` if unsure / comece com `/ask-emil` se tiver dúvida.
+
+**Flow / Fluxo:** `/prototype` → build (`animate` · `choreograph` · `gestures` · `animate-expo`) → break it (`break-ui` · `/review-animations`) → `/learn-taste`.
+
+| Situation / Situação | Skill |
+|---|---|
+| Don't know what it should look like / Não sei como deve ficar | `/prototype` |
+| Drag, swipe, sheets / Arrastar, deslizar, sheets | `gestures` · `apple-design` |
+| Expo / React Native motion | `animate-expo` |
+| Animation is janky / Animação engasgando | `animation-performance` |
+| What could animate? / O que dá para animar? | `find-animation-opportunities` |
+| Too much motion, app feels slow / Animação demais | `remove-animations` |
+| Audit all motion, plans for other agents / Auditar tudo | `improve-animations` |
+| Strict motion review before merge / Revisão rigorosa | `/review-animations` |
+| Don't know the effect's name / Não sei o nome do efeito | `animation-vocabulary` |
+| Site feels wrong on phone / Site estranho no celular | `mobile-native` |
+| Edge cases: long names, empty lists / Dados extremos | `break-ui` |
+| Which library? / Qual biblioteca? | `/pick-ui-library` · `ask-sonner` |
+| Save design decisions for next time / Guardar decisões | `/learn-taste` |
+| Swift code | `write-swift` |
+
+Commands in `/slash` form are **manual-only** (`disable-model-invocation`) / Os com `/barra` são **só manuais**.
+
+---
+
 ## ✍️ Content / Conteúdo
 
 ### copywriting

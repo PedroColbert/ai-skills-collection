@@ -43,6 +43,23 @@ This repository is cloned directly into `~/.claude/skills/`, so every skill here
 | [better-layout](better-layout/STUDY.md) | Layout | Grouping, alignment and layouts that survive resize, translation and RTL | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
 | [web-design-guidelines](web-design-guidelines/STUDY.md) | UI review | Audit UI code against Vercel's Web Interface Guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [copywriting](copywriting/STUDY.md) | Content | Page copy with supportable claims and no AI tells | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
+| [animate-expo](animate-expo/STUDY.md) | Motion / React Native | Animation build sequence for Expo: Reanimated, gestures, haptics | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [gestures](gestures/STUDY.md) | Motion | Drag, swipe and sheets that track the finger 1:1 and stay interruptible | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [animation-performance](animation-performance/STUDY.md) | Motion / Performance | Find why animations drop frames; composite-only properties | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [find-animation-opportunities](find-animation-opportunities/STUDY.md) | Motion / Audit | Read-only: where motion would help, and where it wouldn't | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [remove-animations](remove-animations/STUDY.md) | Motion / Cleanup | Remove motion the interface doesn't need (only subtracts) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [improve-animations](improve-animations/STUDY.md) | Motion / Audit | Prioritised motion audit + self-contained plans for other agents | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [review-animations](review-animations/STUDY.md) | Motion / Review | Strict review against 10 motion standards (`/review-animations`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [animation-vocabulary](animation-vocabulary/STUDY.md) | Motion | Glossary: vague description → exact animation term | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [apple-design](apple-design/STUDY.md) | Design principles | Apple's WWDC interface and fluid-motion principles, for the web | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [mobile-native](mobile-native/STUDY.md) | Mobile web | Make a web app feel native on phones (100vh, zoom, sticky hover…) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [break-ui](break-ui/STUDY.md) | QA | Stress-test UI with worst-case data behind a dev-only toggle | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [prototype](prototype/STUDY.md) | Design exploration | Several real variants behind a live picker (`/prototype`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [learn-taste](learn-taste/STUDY.md) | Design memory | Turn a session's design corrections into rules in DESIGN.md (`/learn-taste`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [pick-ui-library](pick-ui-library/STUDY.md) | Tooling | Curated library per frontend task (`/pick-ui-library`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [ask-sonner](ask-sonner/STUDY.md) | Library guide | Guide to Sonner, the React toast library | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [ask-emil](ask-emil/STUDY.md) | Router | Which Emil skill or sequence fits your situation (`/ask-emil`) | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| [write-swift](write-swift/STUDY.md) | Swift | Modern Swift: Swift 6 concurrency, value types, Swift Testing, macros | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
 
 ## 📦 Studied, not installed
 
